@@ -1,0 +1,41 @@
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  min-height: 100wh;
+}
+p, 
+ul {
+  border: 2px solid rgb(51, 153, 65);
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}   
+
+.container {
+  border: 2px dashed red;
+  padding:1.5rem ;
+  margin-top: 1.5em;
+  margin-right:1.5em ;
+  margin-bottom: 1.5em;
+  font-size:1.5rem;
+  
+}   
+    
